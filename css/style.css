@@ -375,6 +375,9 @@ input::placeholder {
 input::-webkit-search-cancel-button {
     display: none;
 }
+input {
+   -webkit-appearance: none;
+}
 
 @keyframes cloud {
     0% {
