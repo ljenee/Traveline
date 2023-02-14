@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32">
+  <!--파비콘-->
+
+  <title>트래블린</title>
+
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+  <div class="cursor"></div>
+  <div class="cursor"></div>
+
+  <!-- 모바일네비게이션 -->
+  <div class="m_nav">
+    <a href="#none"><img src="./images/logo.png" alt="로고"></a>
+    <input type="checkbox" id="menuicon">
+    <label for="menuicon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class="sidebar">
+      <img src="./images/nav_img_03.png" alt="심볼">
+      <ul>
+        <li><a href="#">메인페이지</a></li>
+        <li><a href="#">브랜드소개</a></li>
+        <li><a href="#">여행일정 만들기</a></li>
+        <li><a href="#">트래블린 추천여행지</a></li>
+        <li><a href="#">국내여행</a></li>
+        <li><a href="#">해외여행</a></li>
+        <li><a href="#">이벤트</a></li>
+        <li><a href="#">login</a></li>
+        <li><a href="#">signup</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="banner page-bd">
+    <img src="./images/banner_img_01.png" alt="메인배너 애니메이션">
+    <p>With<br>Traveline</p>
+    <br>
+    <input type="search" size="10" placeholder="&nbsp;&nbsp;어디로 떠나시나요?">
+    <div class="wave_back">
+    </div>
+  </div>
+
+
+  <div class="ready">
+    <a href="#"><img src="./images/icon_plus.png" alt="일정추가하기 버튼"></a>
+    <div class="ready_text">
+      <h1>트래블린으로 쉽게 준비하는 여행!</h1>
+      <h4>여행일정 만들기</h4>
+      <p>새로운 여행지의 일정을 추가하세요</p>
+    </div>
+  </div>
+
+  <div class="icon">
+    <ul>
+      <li><a href="#"><img src="./images/icon_airplane.png" alt="항공권버튼">항공권</a></li>
+      <li><a href="#"><img src="./images/icon_hotel.png" alt="숙소">숙소</a></li>
+      <li><a href="#"><img src="./images/icon_ticket.png" alt="투어·티켓">투어·티켓</a></li>
+      <li><a href="#"><img src="./images/icon_car.png" alt="렌터카">렌터카</a></li>
+    </ul>
+  </div>
+
+  <!-- con1 시작 -->
+  <div class="con1">
+    <div class="h2_box">
+      <h2>여행계획·인기도시</h2>
+    </div>
+    <div class="con1_over">
+      <ul>
+        <li><a href="#none">
+            <div class="con1_li_img">
+              <img src="./images/best_tokyo.jpg" alt="도쿄">
+            </div>
+            <div class="con1_li_text">
+              <p>
+                Tokyo
+              </p>
+            </div>
+          </a></li>
+        <li><a href="#none">
+            <div class="con1_li_img">
+              <img src="./images/best_osaka.jpg" alt="오사카">
+            </div>
+            <div class="con1_li_text">
+              <p>
+                Osaka
+              </p>
+            </div>
+          </a></li>
+        <li><a href="#none">
+            <div class="con1_li_img">
+              <img src="./images/best_bangkok.jpg" alt="방콕">
+            </div>
+            <div class="con1_li_text">
+              <p>
+                Bangkok
+              </p>
+            </div>
+          </a></li>
+        <li><a href="#none">
+            <div class="con1_li_img">
+              <img src="./images/best_jeju.jpg" alt="제주">
+            </div>
+            <div class="con1_li_text">
+              <p>
+                Jeju
+              </p>
+            </div>
+          </a></li>
+        <li><a href="#none">
+            <div class="con1_li_img">
+              <img src="./images/best_paris.jpg" alt="파리">
+            </div>
+            <div class="con1_li_text">
+              <p>
+                Paris
+              </p>
+            </div>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- con1 끝 -->
+
+
+  <!-- con2 시작 -->
+  <div class="con2">
+    <div class="h2_box">
+      <h2>이 도시로 떠나보는건 어때요?</h2>
+    </div>
+    <ul>
+      <li>
+        <div class="con2_inner_img">
+          <a href="#none">
+            <swiper-container class="mySwiper" scrollbar-hide="false">
+              <swiper-slide><img src="./images/con2_swiss_01.jpg" alt="스위스1"></swiper-slide>
+              <swiper-slide><img src="./images/con2_swiss_02.jpg" alt="스위스2"></swiper-slide>
+              <swiper-slide><img src="./images/con2_swiss_03.jpg" alt="스위스3"></swiper-slide>
+              <swiper-slide><img src="./images/con2_swiss_04.jpg" alt="스위스4"></swiper-slide>
+            </swiper-container> </a>
+        </div>
+        <div class="con2_inner_text"><a href="#none">SWISS</a></div>
+        <div class="con2_inner_icon">
+          <a href="#none">
+            <p>자세히보기</p>
+          </a>
+          <a href="#none"><img src="./images/logo_swiss.png" alt="스위스"></a>
+        </div>
+      </li>
+      <li>
+
+        <div class="con2_inner_img">
+          <a href="#none">
+            <swiper-container class="mySwiper" scrollbar-hide="false">
+              <swiper-slide><img src="./images/con2_busan_05.jpg" alt="부산1"></swiper-slide>
+              <swiper-slide><img src="./images/con2_busan_02.jpg" alt="부산2"></swiper-slide>
+              <swiper-slide><img src="./images/con2_busan_03.jpg" alt="부산3"></swiper-slide>
+              <swiper-slide><img src="./images/con2_busan_01.jpg" alt="부산4"></swiper-slide>
+              <swiper-slide><img src="./images/con2_busan_04.jpg" alt="부산5"></swiper-slide>
+            </swiper-container>
+          </a>
+        </div>
+        <div class="con2_inner_text"><a href="#none">BUSAN</a></div>
+        <div class="con2_inner_icon">
+          <a href="#none">
+            <p>자세히보기</p>
+          </a>
+          <a href="#none"><img src="./images/logo_korea.png" alt="한국"></a>
+        </div>
+      </li>
+      <li>
+
+        <div class="con2_inner_img">
+          <a href="#none">
+            <swiper-container class="mySwiper" scrollbar-hide="false">
+              <swiper-slide><img src="./images/con2_osakakyoto_03.jpg" alt="오사카쿄토1"></swiper-slide>
+              <swiper-slide><img src="./images/con2_osakakyoto_02.jpg" alt="오사카쿄토2"></swiper-slide>
+              <swiper-slide><img src="./images/con2_osakakyoto_01.jpg" alt="오사카쿄토3"></swiper-slide>
+              <swiper-slide><img src="./images/con2_osakakyoto_04.jpg" alt="오사카쿄토4"></swiper-slide>
+              <swiper-slide><img src="./images/con2_osakakyoto_05.jpg" alt="오사카쿄토5"></swiper-slide>
+            </swiper-container>
+          </a>
+        </div>
+        <div class="con2_inner_text"><a href="#none">OSAKA·KYOTO</a></div>
+        <div class="con2_inner_icon">
+          <a href="#none">
+            <p>자세히보기</p>
+          </a>
+          <a href="#none"><img src="./images/logo_japan.png" alt="일본"></a>
+        </div>
+      </li>
+
+      <li>
+
+        <div class="con2_inner_img">
+          <a href="#none">
+            <swiper-container class="mySwiper" scrollbar-hide="false">
+              <swiper-slide><img src="./images/con2_hongkongmakao_01.jpg" alt="홍콩마카오1"></swiper-slide>
+              <swiper-slide><img src="./images/con2_hongkongmakao_02.jpg" alt="홍콩마카오2"></swiper-slide>
+              <swiper-slide><img src="./images/con2_hongkongmakao_03.jpg" alt="홍콩마카오3"></swiper-slide>
+              <swiper-slide><img src="./images/con2_hongkongmakao_04.jpg" alt="홍콩마카오4"></swiper-slide>
+            </swiper-container>
+          </a>
+        </div>
+        <div class="con2_inner_text"><a href="#none">HONGKONG·MAKAO</a></div>
+        <div class="con2_inner_icon">
+          <a href="#none">
+            <p>자세히보기</p>
+          </a>
+          <a href="#none"><img src="./images/logo_hongkongmakao.png" alt="홍콩마카오"></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- con2 끝 -->
+
+  <!-- instagram 시작 -->
+  <div class="instagram">
+    <h1>instagram</h1>
+    <h2>@traveline_korea</h2>
+    <div class="insta_img">
+      <a href="https://www.instagram.com/"><img src="./images/insta_j_01.jpg" alt="인스타그램1"></a>
+      <a href="https://www.instagram.com/"><img src="./images/insta_j_02.jpg" alt="인스타그램1"></a>
+      <a href="https://www.instagram.com/"><img src="./images/insta_j_03.jpg" alt="인스타그램1"></a>
+    </div>
+  </div>
+  <!-- instagram 끝 -->
+
+  <footer>
+    <img src="./images/footer_back_blue.png" alt="배경">
+    <img src="./images/footer_back_yellow.png" alt="배경2">
+    <div class="footer_inner">
+      <a href="#none"><img src="./images/logo_footer.png" alt="로고2"></a><br>
+      <img src="./images/footer_img_01.png" alt="반짝이미지">
+      <ul class="sns_icon">
+        <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="./images/sns_facebook.png"
+              alt="페이스북아이콘"></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><img src="./images/sns_youtube.png" alt="유튜브아이콘"></a>
+        </li>
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/sns_instagram.png"
+              alt="인스타그램아이콘"></a></li>
+        <li><a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" target="_blank"><img
+              src="./images/sns_kakaotalk.png" alt="카카오톡아이콘"></a></li>
+        <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"
+            target="_blank"><img src="./images/sns_naverblog.png" alt="네이버블로그아이콘"></a></li>
+      </ul>
+      <div class="footer_text">
+        <p>
+          주식회사 트래블린 코리아<br>
+          대표이사 임지은<br>
+          통신판매업신고 2022-부산동래-930405<br>
+          사업자등록번호 010-90-28659<br>
+          개인정보취급관리자 임지은 JENEE0093@KAKAO.COM<br>
+          주소 47759 부산광역시 동래구<br>
+          시실로 167번길 54-8 (명장동)
+        </p>
+      </div>
+      <ul class="footer_bottom_ul">
+        <li><a href="#none" target="_blank">TRAVELINE</a></li>
+        <li><a href="#none" target="_blank">이용약관</a></li>
+        <li><a href="#none" target="_blank">개인정보 처리방침</a></li>
+        <li><a href="#none" target="_blank">제휴문의</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- 탑버튼 -->
+  <a href="#" class="top_but"><img src="./images/top_but.png" alt="탑 버튼"></a>
+  <!-- 탑버튼 -->
+
+
+
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+
+  <!-- 네비게이션 고정 -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="./script/jquery-sticky.js"></script>
+  <script>
+    (function () {
+      $('header').sticky({
+        stickyClass: 'sticky',
+        anchorClass: 'sticky-anchor'
+      });
+    }());
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document)
+      .mousemove(function (e) {
+        $('.cursor')
+          .eq(0)
+          .css({
+            left: e.pageX,
+            top: e.pageY
+          });
+        setTimeout(function () {
+          $('.cursor')
+            .eq(1)
+            .css({
+              left: e.pageX,
+              top: e.pageY
+            });
+        }, 100);
+      })
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+  <script type='text/javascript' src='./script/jquery.mousewheel.js'></script>
+  <script>
+    $(function() {
+      var width = $(window).width();
+      if (width < 1624) {
+          $(".con1_over").mousewheel(function(event, delta) {
+              this.scrollLeft -= (delta * 100);    
+              event.preventDefault();
+          });
+    }
+});
+  </script>
+</body>
+
+</html>
