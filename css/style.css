@@ -3,6 +3,14 @@
     padding: 0;
     cursor: none;
 }
+html{
+	animation: fadein 1.5s;
+}
+@keyframes fadein {
+	0% { opacity: 0; }
+    50% { opacity: 0; }
+	100% { opacity: 1; }
+}
 
 ul {
     list-style: none;
@@ -923,6 +931,9 @@ footer .footer_inner{
       swiper-slide img{
         height: auto;
       }
+      .con1 ul li:hover img {
+        transform: scale(1, 1);
+    }
 }
 @media (max-width:1080px) {
 
